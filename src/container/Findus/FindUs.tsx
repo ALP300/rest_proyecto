@@ -10,6 +10,7 @@ const FindUs = () => {
   const ref = React.useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
+  
   return (
     <div ref={ref} className="app__bg app__wrapper section__padding" id="contact">
       <motion.div
